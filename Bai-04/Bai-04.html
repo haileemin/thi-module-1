@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form">
+        <h2>Thêm liên lạc</h2>
+        <form id="formContact">
+            <input type="hidden" name="idContact" id="idContact">
+            <div class="form-input">
+                <label for="name" class="form-label">Name</label>
+                <input type="name" class="form-control" name="name" id="name">
+            </div>
+            <div class="form-input">
+                <label for="phoneNumber" class="form-label">Phone number</label>
+                <input type="phoneNumber" class="form-control" name="phoneNumber" id="phoneNumber">
+            </div>
+            <div class="form-input">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" name="email" id="email">
+            </div>
+            <button type="button" class="btn btn-create" onclick="addContact()">
+                Add Contact
+            </button>
+        </form>
+
+    <script src="/Bai-04/Bai-04.js"></script>
+</body>
+</html>
